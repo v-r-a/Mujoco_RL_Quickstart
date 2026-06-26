@@ -10,7 +10,7 @@ In `mjlab`, environments are configured declaratively using `ManagerBasedRlEnvCf
    ```bash
    python -m venv mjlab_env
    source mjlab_env/bin/activate
-   pip install -r Furuta_example/requirements.txt
+   pip install -r Furuta_example/mjlab/requirements.txt
    ```
 
 2. **Register the Task and Run Training**:

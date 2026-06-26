@@ -53,7 +53,7 @@ To keep dependencies clean, it is recommended to create separate virtual environ
   ```bash
   python -m venv sb3_env
   source sb3_env/bin/activate
-  pip install -r Furuta_example/requirements.txt
+  pip install -r Furuta_example/sb3_cpu/requirements.txt
   deactivate
   ```
 
@@ -61,7 +61,7 @@ To keep dependencies clean, it is recommended to create separate virtual environ
   ```bash
   python -m venv mjx_env
   source mjx_env/bin/activate
-  pip install -r Furuta_example/requirements.txt
+  pip install -r Furuta_example/mjx_jax/requirements.txt
   # Make sure to install the JAX version matching your CUDA drivers:
   # pip install --upgrade "jax[cuda12]"
   deactivate
@@ -71,7 +71,7 @@ To keep dependencies clean, it is recommended to create separate virtual environ
   ```bash
   python -m venv mjlab_env
   source mjlab_env/bin/activate
-  pip install -r Furuta_example/requirements.txt
+  pip install -r Furuta_example/mjlab/requirements.txt
   # Note: mjlab is a custom repository framework. You will need to install it in this environment
   # (e.g., in editable mode: pip install -e /path/to/mjlab_source)
   deactivate

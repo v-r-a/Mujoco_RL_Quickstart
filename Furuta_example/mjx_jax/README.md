@@ -10,7 +10,7 @@ Training runs entirely on the GPU via XLA, compiling the physics engine and RL a
    ```bash
    python -m venv mjx_env
    source mjx_env/bin/activate
-   pip install -r Furuta_example/requirements.txt
+   pip install -r Furuta_example/mjx_jax/requirements.txt
    # Make sure to install the correct JAX GPU package matching your CUDA/ROCm drivers, e.g.:
    # pip install --upgrade "jax[cuda12]"
    ```

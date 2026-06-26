@@ -1,0 +1,10 @@
+# Core Physics & Visualization
+mujoco>=3.1.0
+gymnasium>=0.29.0
+numpy>=1.22.0
+matplotlib>=3.5.0
+imageio>=2.15.0
+
+# stable-baselines3 (PPO CPU)
+stable-baselines3>=2.2.1
+tensorboard>=2.10.0

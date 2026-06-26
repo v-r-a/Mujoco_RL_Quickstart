@@ -8,7 +8,7 @@ This folder contains a standard PyTorch + Stable-Baselines3 (SB3) CPU training e
    ```bash
    python -m venv sb3_env
    source sb3_env/bin/activate
-   pip install -r Furuta_example/requirements.txt
+   pip install -r Furuta_example/sb3_cpu/requirements.txt
    ```
 
 2. **Run the training script**:

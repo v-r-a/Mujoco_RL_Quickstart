@@ -1,0 +1,10 @@
+# Core Physics & Visualization
+mujoco>=3.1.0
+numpy>=1.22.0
+matplotlib>=3.5.0
+imageio>=2.15.0
+
+# PyTorch, tensordict, and rsl_rl
+torch>=2.0.0
+tensordict>=0.2.0
+rsl_rl>=2.1.0
