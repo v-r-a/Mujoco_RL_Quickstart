@@ -1,0 +1,32 @@
+# Virtual Environments
+mjlab_env/
+mjx_env/
+sb3_env/
+venv/
+.venv/
+env/
+
+# Python Caches & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS & IDE Configuration
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git diff files
+*.diff
+
+# Training Logs & TensorBoard Events
+*.tfevents.*
+/Furuta_example/sb3_cpu/tb_logs/
+/Furuta_example/mjlab/logs/rsl_rl/events.out.tfevents.*
+/Furuta_example/mjlab/logs/rsl_rl/git/
+
+# Keep only the final pre-trained mjlab model checkpoint, ignore others
+/Furuta_example/mjlab/logs/rsl_rl/model_*.pt
+!/Furuta_example/mjlab/logs/rsl_rl/model_20.pt
