@@ -1,5 +1,6 @@
 # Core Physics & Visualization
 mujoco>=3.1.0
+mjlab
 numpy>=1.22.0
 matplotlib>=3.5.0
 imageio>=2.15.0
