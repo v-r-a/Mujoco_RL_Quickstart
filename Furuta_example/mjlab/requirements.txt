@@ -7,4 +7,5 @@ imageio>=2.15.0
 # PyTorch, tensordict, and rsl_rl
 torch>=2.0.0
 tensordict>=0.2.0
-rsl_rl>=2.1.0
+rsl-rl-lib>=2.1.0
+
